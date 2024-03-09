@@ -18,10 +18,10 @@ public class MutiThreadsSkiersClient {
 
   public static void main(String[] args) throws ApiException, InterruptedException {
     // init
-    int numOfTotalRequests = 200000;
+    int numOfTotalRequests = 2000000;
     int numOfRequestsPerThread = 1000;
     int numOfTasks = numOfTotalRequests / numOfRequestsPerThread;
-    int numOfMaxThread = 32;
+    int numOfMaxThread = 400;
 
     // counter for success and fail
     AtomicInteger successCnt = new AtomicInteger(0);
