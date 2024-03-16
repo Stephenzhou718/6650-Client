@@ -39,8 +39,8 @@ public class PostRequstTask implements Runnable {
   public void run() {
     // create SkierApi object
     ApiClient apiClient = new ApiClient();
-//    apiClient.setBasePath("http://ec2-34-218-250-156.us-west-2.compute.amazonaws.com:8080/Lab2_Servlet_war/");
-    apiClient.setBasePath("http://server-alb-257123290.us-west-2.elb.amazonaws.com:8080/Lab2_Servlet_war/");
+    apiClient.setBasePath("http://ec2-35-90-19-211.us-west-2.compute.amazonaws.com:8080/Lab2_Servlet_war/");
+//    apiClient.setBasePath("http://server-alb-257123290.us-west-2.elb.amazonaws.com:8080/Lab2_Servlet_war/");
 //    apiClient.setBasePath("http://localhost:8080/Lab2_Servlet_war_exploded/");
     SkiersApi skiersApi = new SkiersApi(apiClient);
 
